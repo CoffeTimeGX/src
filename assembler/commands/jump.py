@@ -2,7 +2,7 @@ from .command import Command
 
 class JUMP(Command):
 
-    command = 14
+    command = 15
 
     position_code = 31,27
     position_reg = 4,0
