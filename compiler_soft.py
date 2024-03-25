@@ -21,6 +21,7 @@ from assembler.commands.branz import BRANZ
 from assembler.commands.scall import SCALL
 
 
+
 class CompilerSoftware(QObject) :
     
     registers_value_updated = Signal(list)
